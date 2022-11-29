@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bakery/static/css/main.63b19724.css",
+    "main.js": "/bakery/static/js/main.8d0afeee.js",
+    "static/js/787.d42cef9d.chunk.js": "/bakery/static/js/787.d42cef9d.chunk.js",
+    "index.html": "/bakery/index.html",
+    "main.63b19724.css.map": "/bakery/static/css/main.63b19724.css.map",
+    "main.8d0afeee.js.map": "/bakery/static/js/main.8d0afeee.js.map",
+    "787.d42cef9d.chunk.js.map": "/bakery/static/js/787.d42cef9d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63b19724.css",
+    "static/js/main.8d0afeee.js"
+  ]
+}

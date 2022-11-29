@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Suranna&display=swap");
+
+/* Start CSS reset code from lecture */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font-family: "Suranna", "Times";
+  line-height: 1;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+/* End CSS reset code from lecture */
+
+.header {
+  display: flex;
+  padding: 2vw;
+  margin-bottom: 1vh;
+  justify-content: space-between;
+  background-color: rgb(251, 216, 245);
+}
+
+.contentWrapper {
+  display: flex;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  width: 22vw;
+  min-width: 180px;
+  padding: 10px;
+  background-color: white;
+  max-height: 80vh;
+  overflow-y: scroll;
+  width: 22vw;
+  min-width: 100px;
+  margin-top: 2vh;
+  margin-left: 3vw;
+  margin-right: 2vw;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  min-width: 175px;
+  width: 23vw;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.quantityRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .scrollable {
+    overflow-y: scroll;
+    height: 90vh;
+    width: 30vw;
+  }
+}
+@media (min-width: 801px) {
+  .scrollable {
+    overflow-y: scroll;
+    height: 90vh;
+    display: flex;
+  }
+}
+
+p {
+  font-size: 16px;
+}
